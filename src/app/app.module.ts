@@ -9,6 +9,7 @@ import { QuoteComponent } from './quote/quote.component';
 
 import { QuoteMadeComponent } from './/quote-made/quote-made.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { TimeLapsePipe } from './time-lapse.pipe';
 
 
 
@@ -17,7 +18,8 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     AppComponent,
     QuoteComponent,
     QuoteFormComponent,
-    QuoteMadeComponent
+    QuoteMadeComponent,
+    TimeLapsePipe
   ],
   imports: [
     BrowserModule,

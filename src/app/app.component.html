@@ -3,9 +3,11 @@
 <div class="whole"> 
   <div class="container">
       <div class=jumbotron>
-          <h1>Quote Page </h1>
+          <h1>Display Page </h1>
         </div>
+  <div class="txt">
       <app-quote-form (addQuote)='addQuote($event)'></app-quote-form>
        <app-quote-made  [quotes]='quotes' ></app-quote-made>
+       </div>
   </div>
 </div>

@@ -8,7 +8,7 @@ import { Quote } from '../quote'
   styleUrls: ['./quote-made.component.css']
 })
 export class QuoteMadeComponent implements OnInit {
-
+ 
 @Input() quotes:Quote[];
 @Output() uppoll= new EventEmitter<boolean>();
 @Output() dislike = new EventEmitter<boolean>();
@@ -19,6 +19,7 @@ up(upvoting:boolean){
 down(downvoting:boolean){
   this.uppoll.emit(downvoting);
 }
+ 
   constructor() { }
 
   ngOnInit() {
