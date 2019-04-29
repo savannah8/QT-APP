@@ -10,7 +10,7 @@ import { Quote } from './quote';
 export class AppComponent {
   
   quotes= [
-    new Quote (0, 'Life is easy,,,,..//', '','', 0, 0),
+    new Quote (0, 'Life is easy,,,,..///', '','', 0, 0),
    ]
    addQuote(quote){
 
