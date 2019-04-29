@@ -16,8 +16,6 @@ export class AppComponent {
     
     this.quotes.push(quote)
    }
-   public removeQuote(id: number): void {
-    this.quotes = this.quotes.filter((quote)=> quote.id != id);
-  }
+   
   
   }
