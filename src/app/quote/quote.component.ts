@@ -9,7 +9,7 @@ import { Quote } from '../quote'
 export class QuoteComponent implements OnInit {
   
   @Input() quote:Quote
-  @Output() like= new EventEmitter<boolean>();
+  @Output() uppoll= new EventEmitter<boolean>();
     
   upvote:number=0;
   downvote:number=0;

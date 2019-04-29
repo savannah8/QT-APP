@@ -10,14 +10,14 @@ import { Quote } from '../quote'
 export class QuoteMadeComponent implements OnInit {
 
 @Input() quotes:Quote[];
-@Output() like= new EventEmitter<boolean>();
+@Output() uppoll= new EventEmitter<boolean>();
 @Output() dislike = new EventEmitter<boolean>();
 
 up(upvoting:boolean){
-  this.like.emit(upvoting);
+  this.uppoll.emit(upvoting);
 }
 down(downvoting:boolean){
-  this.like.emit(downvoting);
+  this.uppoll.emit(downvoting);
 }
   constructor() { }
 
